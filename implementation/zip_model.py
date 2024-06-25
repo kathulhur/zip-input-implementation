@@ -27,6 +27,6 @@ class ModelBuilderImplementation(ModelBuilder):
 
 
 inference_metadata = {
-    'input_files': [ ['application/zip'] ],
-    'model_artifacts': [[]]
+    'input_files': [ ['application/zip', 'application/x-zip-compressed'] ],
+    'model_artifacts': []
 }
